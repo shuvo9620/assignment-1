@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Heading section style */
+
+.header-container {
+    background-image: url('../images/banner/banner3.png');
+    width: 100%;
+    height: 809px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    margin-bottom: 130px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 216px 230px 20px 845px;
+    width: 37%;
+}
+
+#top-paragarph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 24px 230px 0px 845px;
+    width: 37%;
+}
+
+.btn {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1310px;
+    top: 578px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.btn2 {
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 24px;
+}
+
+.btn3 {
+    width: 160px;
+    height: 64px;
+    background-color: #005FAC;
+    color: #F8F8F8;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 24px;
+}
+
+/* experience section style */
+.experience-section {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.image-content {
+    width: 80%;
+    margin-right: 87px;
+}
+
+.text-content h3 {
+    width: 80%;
+    padding-top: 240px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+#main-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #151414;
+}
+
+.text-content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #151414;
+    margin: 8px 0;
+}
+
+/* item section style */
+
+
+.simple {
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 130px;
+}
+
+.simple h3 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+}
+
+.simple p {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.bottom {
+    display: flex;
+    width: 100%;
+}
+
+.bottom-image {
+    width: 24%;
+    margin-left: 5%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 50px 2px gray;
+    padding: 15px;
+}
+
+.bottom-image img {
+    width: 100%;
+}
+
+.bottom-imagetwo {
+    width: 24%;
+    margin-left: 5%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 50px 2px gray;
+    padding: 15px;
+}
+
+.bottom-imagetwo img {
+    width: 100%;
+}
+
+.bottom-imagethree {
+    width: 24%;
+    margin-left: 5%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 50px 2px gray;
+    padding: 15px;
+}
+
+.bottom-imagethree img {
+    width: 100%;
+}
+
+/* skill section styles */
+.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    margin-top: 130px;
+}
+
+.coding-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.plan-div {
+    margin: 0 50px;
+
+
+}
+
+.plan-div img {
+    margin-left: 50px;
+}
+
+.plan-div h4 {
+    margin: 16px 0;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+}
+
+.plan-div p {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+
+.plan-section {
+    margin-bottom: 150px;
+}
+
+.blend-section {
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.blend-section h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.blend-text {
+    padding: 60px 64px;
+}
+
+/* Footer section style */
+.footer-section {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding: 130px 0;
+
+}
+
+.footer-div {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.footer-div2 {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.footer-div h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer-div p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.footer-div2 h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+input {
+    width: 250px;
+    padding: 15px;
+    background-color: black;
+    border: 1px solid white;
+    color: #F8F8F8;
+}
